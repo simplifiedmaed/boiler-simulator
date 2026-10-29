@@ -1,0 +1,9 @@
+{
+  "name": "boiler-simulator",
+  "version": "1.0.0",
+  "description": "Simulador de una caldera industrial que envía lecturas de sensores a un servidor IIoT",
+  "main": "simulator.js",
+  "scripts": { "start": "node simulator.js", "demo": "node simulator.js --scenario=demo" },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
